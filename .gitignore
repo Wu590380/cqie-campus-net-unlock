@@ -1,0 +1,7 @@
+config.local.json
+*.local.json
+*.private.json
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

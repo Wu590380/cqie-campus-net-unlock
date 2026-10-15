@@ -1,0 +1,21 @@
+{
+  "_note": "脱敏样例：InterFace.do?method=getOnlineUserInfo 回执（2026-10，CQIE eportal 实测）",
+  "_key_findings": [
+    "userMac 是【路由器】的 MAC（与路由器 LAN 侧网关 ARP 记录中的同一 MAC 一致）→ 认证主体是路由器而非终端",
+    "userIp 是校园网分配给【路由器 WAN】的 10.x 地址 → 与终端无关",
+    "announcement 为门户公告原文，其中第 4 条即『每个账户可以同时使用2个设备』"
+  ],
+  "result": "wait",
+  "message": "用户信息不完整，请稍后重试",
+  "userName": "<账号>",
+  "userId": "<账号>",
+  "userIp": "<10.x.x.x>",
+  "userMac": "<路由器MAC>",
+  "service": "[-1-1]系统默认服务[-1-1]",
+  "realServiceName": "[-1-1]系统默认服务[-1-1]",
+  "keepaliveInterval": 0,
+  "loginType": null,
+  "isAutoLogin": "true",
+  "announcement": "1. 本认证系统使用学校智慧校园平台统一的用户名和密码，忘记密码请点击 http://i.cqie.edu.cn/ 重置密码。 2. 如果您已办理中国电信校园网帐号，登录时请选择中国电信出口；没有办理中国电信校园网帐号的请选择校园网出口。 3. 绑定运营商账户时，新用户请先选服务『校园网』连接，再去自助服务（http://10.253.3.83:8080/selfservice/）进行绑定。 4. 每个账户可以同时使用2个设备。 5. 访问校内资源不需要认证，请直接访问。",
+  "welcomeTip": "晚上好"
+}

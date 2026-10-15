@@ -1,0 +1,10 @@
+{
+  "_note": "脱敏样例：InterFace.do?method=login 成功后的回执结构（2026-10，CQIE eportal 实测）",
+  "_userIndex_note": "userIndex 是十六进制 ASCII，解码后 = <nasip>_<认证后的 WAN 侧 IP>_<账号>",
+  "userIndex": "<hex>_<hex>_<hex>",
+  "userIndex_decoded": "<nasip>_<10.x.x.x>_<账号>",
+  "result": "success",
+  "forwordurl": null,
+  "keepaliveInterval": 0,
+  "validCodeUrl": ""
+}
